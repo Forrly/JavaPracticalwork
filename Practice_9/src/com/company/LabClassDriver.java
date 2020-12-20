@@ -1,6 +1,7 @@
 package com.company;
 import java.util.*;
-public class LabClassDriver extends LabClassUI{
+
+public class LabClassDriver implements LabClassUI{
     private List<Student> students;
 
     public LabClassDriver() {
